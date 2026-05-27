@@ -61,6 +61,30 @@ export default function Sidebar({
               <span className="text-gray-500">Risk:</span>{" "}
               {crossing.risk_level}
             </p>
+
+            {/* New Section */}
+
+            <div className="mt-6 border-t border-gray-700 pt-4">
+              <h4 className="text-cyan-400 font-semibold mb-2">
+                Why this matters
+              </h4>
+
+              <p className="text-gray-400 text-sm">
+                Border crossings affect trade flow,
+                supply chains, transportation efficiency,
+                and regional security.
+              </p>
+
+              <h4 className="text-cyan-400 font-semibold mt-4 mb-2">
+                Who controls this
+              </h4>
+
+              <p className="text-gray-400 text-sm">
+                Customs agencies, border security,
+                transportation authorities, and
+                government trade departments.
+              </p>
+            </div>
           </div>
         </>
       ) : (
